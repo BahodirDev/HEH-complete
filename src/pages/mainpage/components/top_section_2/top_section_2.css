@@ -1,0 +1,146 @@
+.top_section_2 {
+    width: 100%;
+    height: 860px;
+    background: transparent;
+    text-align: center;
+}
+
+/* big text */
+.top_section_2_big_text {
+
+
+    margin-top: 50px;
+    font-family: "Playfair Display";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 64px;
+    /* identical to box height */
+    text-align: center;
+
+    color: #ffffff;
+}
+.top_section_2_big_text span {
+    color: #ffd600;
+}
+/* small text */
+
+.top_section_2_small_text {
+
+    margin-top: 25px;
+
+    font-family: "Gilroy";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 38px;
+    /* identical to box height, or 158% */
+
+    text-align: center;
+
+    color: #ffffff;
+}
+
+/* card lists */
+.cards_section_2 {
+    /* position: absolute; */
+    /* width: 1130px; */
+    margin: 40px 0px;
+    height: 426px;
+    left: 190px;
+    top: 1108px;
+    display: flex;
+    justify-content: space-between;
+  
+}
+
+.item_cards_list {
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    align-items: center;
+    padding: 45px 25px;
+    gap: 30px;
+
+    width: 344px;
+    height: 426px;
+
+    background: rgba(255, 255, 255, 0.02);
+    border-radius: 10px;
+    transition: all 0.8s linear;
+}
+.item_cards_list:hover{
+    background: #47474a;
+    color: #ffff;
+    opacity: 0.8;
+}
+
+/* texts */
+#bussines {
+    width: 108px;
+    height: 36px;
+
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    /* identical to box height */
+
+    color: #ffd600;
+}
+#performers {
+    width: 294px;
+    height: 180px;
+
+    font-family: "Gilroy";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    /* or 167% */
+
+    text-align: center;
+
+    color: #ffffff;
+}
+
+/* Image text */
+
+
+/* cards_section_2_img */
+
+
+.cards_section_2_img {
+    /* width: 100%; */
+    min-height: 405px;
+   
+    background: #000;
+    background: url(../../../../assets/bg_2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    align-items: center;
+    display: flex;
+}
+
+.text_on_img_text {
+    font-family: "Playfair Display";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 80px;
+    /* or 167% */
+
+    text-align: center;
+
+    color: #ffffff;
+}
+.text_on_img_text span {
+    color: #ffd600;
+}
+
+.text_on_img {
+    width: 1022px;
+    margin: 0 auto;
+}

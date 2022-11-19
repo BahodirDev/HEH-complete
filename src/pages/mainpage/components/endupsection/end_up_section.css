@@ -1,0 +1,113 @@
+/* end_up_section */
+.end_up_section {
+    height: 1200px;
+    width: 100%;
+ 
+}
+
+/* end_up_section_text */
+.end_up_section_text {
+   
+    margin: 50px 0px;
+
+    text-align: center;
+    font-family: "Playfair Display";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 64px;
+    /* identical to box height */
+
+    color: #ffffff;
+}
+.end_up_section_text span {
+    color: #ffd600;
+}
+
+/* cards */
+.end_cards {
+
+    height: 426px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.end_section_list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 45px 25px;
+    gap: 30px;
+    margin-top: 50px;
+
+   
+    width: 344px;
+    height: 426px;
+    left: 155px;
+
+    background: rgba(255, 255, 255, 0.02);
+    border-radius: 10px;
+    transition: all 0.8s linear;
+
+}
+.end_section_list:hover{
+    background:#47474a;
+    color: #ffff;
+    opacity: 0.8;
+}
+.end_section_list_2 {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 45px 24px;
+    gap: 30px;
+
+    /* position: absolute; */
+    width: 342px;
+    height: 426px;
+    /* left: 549px; */
+    /* top: 3995px; */
+
+    background: rgba(255, 255, 255, 0.02);
+    border-radius: 10px;
+    transition: all 0.8s linear;
+
+}
+.end_section_list_2:hover{
+    background:#47474a;
+    color: #ffff;
+    opacity: 0.8;
+
+}
+.golden_print {
+    width: 159px;
+    height: 36px;
+
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    /* identical to box height */
+    text-align: center;
+    color: #ffd600;
+}
+.golden_print_text {
+    width: 294px;
+    height: 180px;
+
+    font-family: "Gilroy";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    /* or 167% */
+
+    text-align: center;
+
+    color: #ffffff;
+}

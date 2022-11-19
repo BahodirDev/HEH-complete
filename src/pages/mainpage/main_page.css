@@ -1,0 +1,20 @@
+.main_page {
+    width: 100%;
+    min-height: 100vh;
+    background: #1e1e1e;
+}
+
+@media (max-width: 321px) {
+    .main_page {
+        width: 420px;
+        min-height: 100vh;
+        background: #1e1e1e;
+    }
+}
+@media (max-width: 376px) {
+    .main_page {
+        width: 430px;
+        min-height: 100vh;
+        background: #1e1e1e;
+    }
+}

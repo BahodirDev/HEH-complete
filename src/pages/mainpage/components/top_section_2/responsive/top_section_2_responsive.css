@@ -1,0 +1,265 @@
+/* responsive */
+@media (max-width: 431px) {
+    .top_section_2 {
+        min-height: 1700px;
+    }
+    .cards_section_2 {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: right;
+
+        align-items: center;
+    }
+    .item_cards_list {
+        margin-top: 30px;
+    }
+    .cards_section_2_img {
+        /* width: 100%; */
+        width: min-content;
+        height: 600px;
+
+        background: #000;
+        background: url(./assets/middle.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        text-align: center;
+        align-items: center;
+        display: flex;
+    }
+    .text_on_img_text {
+        height: 105px;
+
+        font-family: "Playfair Display";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 26px;
+        line-height: 35px;
+        text-align: center;
+        padding: 0px 40px;
+        color: #ffffff;
+    }
+}
+
+@media (max-width: 321px) {
+    .top_section_2 {
+        min-height: 1700px;
+        width: 530px;
+        background: #1e1e1e;
+    }
+    .cards_section_2 {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: right;
+
+        align-items: center;
+    }
+    .item_cards_list {
+        margin-top: 30px;
+    }
+    .cards_section_2_img {
+        /* width: 100%; */
+        width: min;
+        height: 600px;
+
+        background: #000;
+        background: url(./assets/middle.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        text-align: center;
+        align-items: center;
+        display: flex;
+    }
+    .text_on_img_text {
+        height: 105px;
+
+        font-family: "Playfair Display";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 26px;
+        line-height: 35px;
+        text-align: center;
+        padding: 0px 40px;
+        color: #ffffff;
+    }
+}
+@media (max-width: 376px) {
+    .top_section_2 {
+        min-height: 1700px;
+        width: 530px;
+        background: #1e1e1e;
+    }
+    .cards_section_2 {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: right;
+
+        align-items: center;
+    }
+    .item_cards_list {
+        margin-top: 30px;
+    }
+    .cards_section_2_img {
+        /* width: 100%; */
+        width: 430px;
+        height: 600px;
+
+        background: #000;
+        background: url(./assets/middle.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        text-align: center;
+        align-items: center;
+        display: flex;
+    }
+    .text_on_img_text {
+        height: 105px;
+
+        font-family: "Playfair Display";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 26px;
+        line-height: 35px;
+        text-align: center;
+        padding: 0px 40px;
+        color: #ffffff;
+    }
+}
+@media (max-width: 426px) {
+    .top_section_2 {
+        min-height: 1700px;
+        width: 100%;
+        background: #1e1e1e;
+    }
+    .cards_section_2 {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: right;
+
+        align-items: center;
+    }
+    .item_cards_list {
+        margin-top: 30px;
+    }
+    .cards_section_2_img {
+        /* width: 100%; */
+        width: 430px;
+        height: 600px;
+
+        background: #000;
+        background: url(./assets/middle.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        text-align: center;
+        align-items: center;
+        display: flex;
+    }
+    .text_on_img_text {
+        height: 105px;
+
+        font-family: "Playfair Display";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 26px;
+        line-height: 35px;
+        text-align: center;
+        padding: 0px 40px;
+        color: #ffffff;
+    }
+}
+@media (max-width: 768px) {
+    .top_section_2 {
+        min-height: 1700px;
+        width: 100%;
+        background: #1e1e1e;
+    }
+    .cards_section_2 {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: right;
+
+        align-items: center;
+    }
+    .item_cards_list {
+        margin-top: 30px;
+    }
+    .cards_section_2_img {
+        /* width: 100%; */
+        width: 100%;
+        height: 600px;
+
+        background: #000;
+        background: url(./assets/middle.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        text-align: center;
+        align-items: center;
+        display: flex;
+    }
+    .text_on_img_text {
+        height: 105px;
+
+        font-family: "Playfair Display";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 26px;
+        line-height: 35px;
+        text-align: center;
+        padding: 0px 40px;
+        color: #ffffff;
+    }
+}
+@media (max-width: 1025px) {
+    .top_section_2 {
+        min-height: 1700px;
+        width: 100%;
+        background: #1e1e1e;
+    }
+    .cards_section_2 {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: right;
+
+        align-items: center;
+    }
+    .item_cards_list {
+        margin-top: 30px;
+    }
+    .cards_section_2_img {
+        /* width: 100%; */
+        width: 100%;
+        height: 600px;
+
+        background: #000;
+        background: url(./assets/middle.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        text-align: center;
+        align-items: center;
+        display: flex;
+    }
+    .text_on_img_text {
+        height: 105px;
+
+        font-family: "Playfair Display";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 26px;
+        line-height: 35px;
+        text-align: center;
+        padding: 0px 40px;
+        color: #ffffff;
+    }
+}
+

@@ -1,0 +1,88 @@
+/* place */
+.top_section_1 {
+    width: 100%;
+    min-height: 866px;
+    background: url(./responsive/assets/img.png) no-repeat;
+    background-size: cover;
+}
+/* text section1 */
+/* .text_section_1 {
+    position: absolute;
+    width: 608px;
+    height: 170px;
+    margin-left: 97px;
+    top: 246px;
+} */
+/* video */
+
+.row_top_section {
+    position: absolute;
+    top: 30%;
+    left: 0;
+}
+
+.text_section_2 {
+    /* width: 755px;
+    height: 114px;
+    left: 97px; */
+    margin-top: 55px;
+}
+/* Big text */
+.big_text_responsive {
+    font-family: "Playfair Display";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 85px;
+    letter-spacing: 3px;
+    /* or 142% */
+
+    color: #ffffff;
+}
+
+/* small text */
+.small_text_section_1 {
+    font-family: "Gilroy";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 38px;
+    /* or 158% */
+
+    color: #ffffff;
+}
+
+.big_text_responsive span {
+    color: #ffd600;
+}
+
+/* section btn */
+.top_section_btn {
+    /* position: absolute; */
+    width: 200px;
+    height: 50px;
+    margin-top: 50px;
+    /* left: 97px;
+    top: 450px; */
+    
+    background: #ffd600;
+    border-radius: 150px;
+}
+.top_section_btn span {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 38px;
+    /* identical to box height, or 211% */
+
+    color: #1f2022;
+}
+.top_section_btn_parent{
+    text-align: left;
+}
+/* appy */
+.apply:hover {
+    color: #fff;
+    transition: all 0.2s linear;
+}

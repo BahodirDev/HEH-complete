@@ -1,0 +1,141 @@
+.foundation{
+    min-height: 100vh;
+}
+.foundation_row {
+    padding-top: 180px;
+}
+.back {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    cursor: pointer;
+}
+.back p {
+    margin: 0px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    /* identical to box height */
+
+    color: #ffffff;
+}
+
+/* email_panel */
+/* .email_panel_found {
+    background: #222222;
+    height: 60px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 50px;
+} */
+
+.fa-timer {
+    color: red;
+}
+.email_panel_time {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* time_icon */
+.time_icon{
+    height: 24px;
+    width: 24px;
+    margin: 0px 10px;
+}
+
+.time {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    /* identical to box height */
+    margin: 0px;
+    color: #ffffff;
+}
+
+/* email_panel_icons */
+.email_panel_icons{
+    display: flex;
+}
+
+/* email_icon */
+.email_icon{
+    margin: 0px 10px;
+    width: 30px;
+    height: 24px;
+}
+
+/* img_panel */
+/* .img_panel_found {
+    margin-top: 100px;
+    text-align: center;
+    background-image: url(./assets/foundation.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 609px;
+} */
+
+/* title */
+/* .foundation_title {
+    padding: 80px 0px;
+} */
+/* .foundation_title h3 {
+    font-family: "Playfair Display";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 64px;
+
+    color: #ffffff;
+} */
+
+/* invest_avatar */
+/* .found_avatar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 290px;
+} */
+.found_avatar img {
+    width: 60px;
+    height: 60px;
+}
+/* .found_avatar p {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    margin: 0px;
+    color: #ffffff;
+} */
+
+/* invest_post */
+/* .found_post{
+    padding: 20px 0px;
+}
+.found_post p{
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 40px;
+
+    color: #ffffff;
+} */
+
+/* arrow */
+.arrow{
+    padding: 0px 15px;
+}
+.found_post {
+    padding: 10px 25px;
+    color: #fff;
+}

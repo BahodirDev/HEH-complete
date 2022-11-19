@@ -1,0 +1,211 @@
+/* responsive */
+@media (max-width: 376px) {
+    .email {
+        min-height: 812px;
+    }
+    .mobile_row_email {
+        background: url(../assets/mob_email.png);
+        display: block;
+        width: 410px;
+        margin: 0 auto;
+        min-height: 812px;
+        padding: 20px;
+    }
+
+    .email_title_hidden_mob {
+        display: block;
+        font-family: "Playfair Display";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 32px;
+        text-align: center;
+
+        color: #ffffff;
+    }
+
+    /* email_input_mob */
+    .email_input_mob {
+        background: #1e1e1e;
+        border-radius: 10px;
+        width: 99%;
+        height: 50px;
+
+        /* text */
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        /* identical to box height */
+
+        color: #dadada;
+        margin: 20px 0px;
+        opacity: 0.5;
+    }
+    .email_text_mob {
+        background: #1e1e1e;
+        border-radius: 10px;
+        width: 99%;
+        height: 297px;
+    }
+    .input_check_mobile {
+        display: flex;
+        width: 100%;
+        margin: 20px 0px;
+    }
+    .input_check_mob_ {
+        border: 1px solid #ffd600;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* color: red; */
+        border-radius: 5px;
+        width: 16px;
+        height: 16px;
+        /* background: red; */
+    }
+    .input_check_mob {
+        width: max-content;
+        height: max-content;
+        background: #000;
+        border-radius: 50%;
+        border: 1px solid #ffd600;
+    }
+
+    /* apply_btn */
+    .apply {
+        text-align: center;
+    }
+    .apply_btn {
+        width: 220px;
+        height: 40px;
+        background: #ffd600;
+        border-radius: 150px;
+        /* text */
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 38px;
+        /* identical to box height, or 238% */
+
+        color: #1f2022;
+    }
+    .back_email{
+        margin: 10px 0px;
+    }
+    .text_row {
+        display: none;
+    }
+    .email_place {
+        display: none;
+    }
+}
+@media (max-width: 415px) {
+    .email {
+        min-height: 812px;
+    }
+    .mobile_row_email {
+        background: url(../assets/mob_email.png);
+        display: block;
+        width: 410px;
+        margin: 0 auto;
+        min-height: 812px;
+        padding: 20px;
+    }
+
+    .email_title_hidden_mob {
+        display: block;
+        font-family: "Playfair Display";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 32px;
+        text-align: center;
+
+        color: #ffffff;
+    }
+
+    /* email_input_mob */
+    .email_input_mob {
+        background: #1e1e1e;
+        border-radius: 10px;
+        width: 99%;
+        height: 50px;
+
+        /* text */
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        /* identical to box height */
+
+        color: #dadada;
+        margin: 20px 0px;
+        opacity: 0.5;
+    }
+    .email_text_mob {
+        background: #1e1e1e;
+        border-radius: 10px;
+        width: 99%;
+        height: 297px;
+    }
+    .input_check_mobile {
+        display: flex;
+        width: 100%;
+        margin: 20px 0px;
+    }
+    .input_check_mob_ {
+        border: 1px solid #ffd600;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* color: red; */
+        border-radius: 5px;
+        width: 16px;
+        height: 16px;
+        /* background: red; */
+    }
+    .input_check_mob {
+        width: max-content;
+        height: max-content;
+        background: #000;
+        border-radius: 50%;
+        border: 1px solid #ffd600;
+    }
+
+    /* apply_btn */
+    .apply {
+        text-align: center;
+    }
+    .apply_btn {
+        width: 220px;
+        height: 40px;
+        background: #ffd600;
+        border-radius: 150px;
+        /* text */
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 38px;
+        /* identical to box height, or 238% */
+
+        color: #1f2022;
+    }
+    .back_email{
+        margin: 10px 0px;
+    }
+    .text_row {
+        display: none;
+    }
+    .email_place {
+        display: none;
+    }
+}
+
+
+
+

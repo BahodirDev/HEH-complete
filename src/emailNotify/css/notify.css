@@ -1,0 +1,86 @@
+.notify {
+    width: 760px;
+    height: 848px;
+    background: #17181a;
+    padding: 0px 20px;
+}
+
+/* notify_btn */
+.notify_btn {
+    width: 100%;
+    height: 100px;
+
+    background: #ffd600;
+    border-radius: 5px;
+
+    font-family: "Playfair Display";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 125.52%;
+    /* or 31px */
+
+    letter-spacing: 0.04px;
+    padding: 10px 0px;
+
+    color: #17181a;
+}
+
+/* Button0 */
+.small_btn {
+    background: #ffd600;
+    border-radius: 8px;
+    width: 168px;
+    height: 32px;
+}
+/* notify_text */
+.notify_text {
+    font-family: "Gilroy";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 130%;
+    /* or 21px */
+
+    letter-spacing: 0.04px;
+    padding: 10px 0px;
+
+    color: #ffffff;
+}
+/* notify_text_reg */
+.notify_text_reg {
+    font-family: "Playfair Display";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 125.52%;
+    /* or 31px */
+
+    letter-spacing: 0.04px;
+    padding: 20px 0px;
+    color: #ffd600;
+}
+/* notify_row */
+.notify_row {
+    padding: 25px 10px;
+}
+/* logo_notify */
+.logo_notify {
+    width: 34.68px;
+    height: 36px;
+}
+/* under_logo_text_notify */
+.under_logo_text_notify {
+    font-family: "Oswald";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    /* identical to box height */
+
+    letter-spacing: 0.2em;
+
+    color: #ffd600;
+    width: 34px;
+    height: 24px;
+}

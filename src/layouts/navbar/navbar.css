@@ -1,0 +1,79 @@
+.navbar {
+    /* padding: 30px 70px; */
+    padding-top: 30px ;
+    padding-left: 120px;
+    position: absolute;
+    width: 100%;
+    z-index: 999;
+}
+
+/* collapse */
+.collapse {
+    display: flex;
+    justify-content: right;
+}
+.navbar-nav {
+    width: 70%;
+    margin-right: 40px;
+    display: flex;
+    justify-content: space-around;
+}
+
+/* logo */
+.logo {
+    width: 65px;
+    height: 60px;
+}
+/* under_logo_text */
+.under_logo_text {
+    font-family: "Oswald";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 36px;
+    /* identical to box height */
+
+    letter-spacing: 0.4em;
+
+    color: #ffd600;
+}
+/* navbar-brand */
+.navbar-brand {
+    margin: 0 auto;
+}
+
+/* nav-link*/
+.nav-link {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    /* identical to box height */
+
+    color: #ffffff;
+}
+.nav-link:hover {
+    color: #ffd600;
+}
+.nav-link:focus {
+    color: #ffd600;
+
+}
+.nav_btn{
+    border: 1px solid #ffd600;
+    border-radius: 150px;
+}
+.nav_btn span{
+
+    color: #ffd600;
+    padding: 15px 15px;
+}
+.nav_btn span:active{
+
+    color: #f1f1f1;
+}
+.nav_btn:active{
+
+    background:  #ffd600;
+}
