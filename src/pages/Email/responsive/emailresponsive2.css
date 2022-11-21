@@ -311,6 +311,8 @@
         width: 12px;
         height: 16px;
         /* background: red; */
+        margin-top: 5px;
+
     }
     .email_input_check {
         width: max-content;
@@ -318,6 +320,7 @@
         background: #000;
         border-radius: 50%;
         border: 1px solid #ffd600;
+
     }
 
     .email_input_pg {
@@ -329,6 +332,7 @@
 
         color: #7c7c7c;
         margin-left: 10px;
+        margin-top: 5px;
     }
     .mark {
         color: #ffd600;
