@@ -1,6 +1,6 @@
 /* end_up_section */
 .end_up_section {
-    height: 1200px;
+    min-height: 1200px;
     width: 100%;
  
 }

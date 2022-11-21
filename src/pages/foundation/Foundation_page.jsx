@@ -8,10 +8,10 @@ import { useNavigate } from 'react-router-dom';
 import './responsive/foundation_responsive.css';
 import './foundation.css';
 
-function Foundation_page({setIsEmail}) {
-    useEffect(()=>{
+function Foundation_page({ setIsEmail }) {
+    useEffect(() => {
         setIsEmail(true);
-      },[])
+    }, [])
     const navigate = useNavigate();
     return (
         <div className='foundation container'>
@@ -60,13 +60,11 @@ function Foundation_page({setIsEmail}) {
                 {/* post */}
                 <div className="col-lg-12 found_post">
                     <p>
-                        After mask affairs, corruption scandals in Austria and other incidents, the impression has often arisen that there are no decent conservatives [anymore] - the AfD slides into right-wing extremism; the Union into insignificance. At HEH, on the other hand , we aim to be part of the solution and not the problem.
-                    </p>
-                    <p>
+                        After mask affairs, corruption scandals in Austria and other incidents, the impression has often arisen that there are no decent conservatives [anymore] - the AfD slides into right-wing extremism; the Union into insignificance. At HEH, on the other hand, we aim to be part of the solution and not the problem.
+
                         For this purpose, we transfer 10% of our profits and other donations directed to the network to the HEH Foundation once the app is complete. It is the completion of the intention to contribute to a great future of a great country with an entrepreneurial project and to want to improve it on a small scale.
-                    </p>
-                    <p>
-                        In the long term, we want to use the funds available to promote liberal-conservative top performers from all walks of life, enable events – especially discussion rounds with people who think differently – support liberal-conservative projects and get involved in the prevention of extremism; The latter especially with regard to right-wing extremism, which we, as members of the moderate-conservative spectrum , are particularly responsible for curbing .
+
+                        With the funds available, we want to promote liberal-conservative top performers from all walks of life in the long term, enable events - especially discussion groups with those who think differently - support liberal-conservative projects and get involved in the prevention of extremism; The latter especially with a view to right-wing extremism, the containment of which is particularly important to us as members of the moderate-conservative spectrum.
                     </p>
                 </div>
             </div>

@@ -47,10 +47,10 @@
     background: url(./assets/blur.png);
     background-repeat: no-repeat;
     background-size: cover;
-    width: 676px;
+    width: 645px;
     height: 726px;
-    padding: 30px;
-    margin-top: -20px;
+    padding: 15px;
+    margin-top: -5px;
 }
 
 /* email_input */

@@ -60,11 +60,21 @@
     height: 400px;
     left: 519.7px;
     top: 2607px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
     /* border: 0.5px dashed #4a5f88; */
     background: url(../../../../assets/layers/layer_4.png);
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+/* mid_img_ */
+.mid_img_{
+    z-index: 999;
+    position:absolute;
+  
 }
 .layer_mobile {
     position: absolute;
@@ -73,9 +83,9 @@
     left: 570px;
     top: 2503px;
 
-    background: url(../../../../assets/layers/mobile.png);
+    /* background: url(../../../../assets/layers/mobile.png);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover; */
 }
 
 /* texts */

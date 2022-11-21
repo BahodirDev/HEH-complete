@@ -195,7 +195,12 @@
         background-position: center;
         z-index: 9999;
     }
-  
+  .video{
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
     /* .top_section_1 {
         width: 430px;
         height: 920px;

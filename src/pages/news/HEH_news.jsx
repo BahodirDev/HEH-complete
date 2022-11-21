@@ -54,8 +54,8 @@ function HEH_news({setIsEmail}) {
                 <div className="col-lg-2 news_avatar">
                     <img src={avatar} alt="avatar" />
                     <span>
-                        <p>Konrad Adenaue</p>
-                        <p>CO-Founde</p>
+                        <p>Jean Cocteau</p>
+                        <p>Lawyer</p>
                     </span>
                 </div>
                 {/* post */}

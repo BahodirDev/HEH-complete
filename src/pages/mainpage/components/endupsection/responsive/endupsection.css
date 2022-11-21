@@ -29,3 +29,11 @@
         margin: 0 auto;
     }
 }
+@media (max-width: 1025px) {
+    .end_up_section {
+        width: 100%;
+        min-height: 1700px;
+       
+    }
+
+}

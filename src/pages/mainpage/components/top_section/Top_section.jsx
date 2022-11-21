@@ -7,8 +7,8 @@ function Top_section(props) {
     return (
         <div className='top_section_1 container-fluid '>
            
-            <video width="100%" height="866"  autoPlay muted playsInline loop className='video'>
-              <source src={vd} type="video/mp4" />
+            <video width="100%"  autoPlay muted playsInline loop className='video'>
+              <source src={vd} type="video/mp4"  />
             </video>
             {/* first top section */}
          

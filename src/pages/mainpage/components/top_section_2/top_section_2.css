@@ -7,8 +7,6 @@
 
 /* big text */
 .top_section_2_big_text {
-
-
     margin-top: 50px;
     font-family: "Playfair Display";
     font-style: normal;
@@ -26,7 +24,6 @@
 /* small text */
 
 .top_section_2_small_text {
-
     margin-top: 25px;
 
     font-family: "Gilroy";
@@ -51,7 +48,6 @@
     top: 1108px;
     display: flex;
     justify-content: space-between;
-  
 }
 
 .item_cards_list {
@@ -67,12 +63,21 @@
 
     background: rgba(255, 255, 255, 0.02);
     border-radius: 10px;
-    transition: all 0.8s linear;
+    transition: all 0.1s linear;
 }
-.item_cards_list:hover{
-    background: #47474a;
+.hidden_txt {
+    color: transparent;
+}
+.hidden_txt1 {
+    color: #ffff;
+}
+.item_cards_list:hover {
+    border: 1px solid #ffd600;
+    box-shadow: 0px 0px 53px rgba(178, 225, 9, 0.5) inset;
     color: #ffff;
     opacity: 0.8;
+    min-height: 160%;
+    transition: all 0.2s linear;
 }
 
 /* texts */
@@ -107,14 +112,12 @@
 
 /* Image text */
 
-
 /* cards_section_2_img */
-
 
 .cards_section_2_img {
     /* width: 100%; */
     min-height: 405px;
-   
+
     background: #000;
     background: url(../../../../assets/bg_2.png);
     background-repeat: no-repeat;
