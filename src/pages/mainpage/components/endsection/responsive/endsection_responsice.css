@@ -62,7 +62,6 @@
         position: absolute;
         left: 0;
         top: 0;
-        background: red;
     }
     .side_img {
         text-align: right;
@@ -149,11 +148,12 @@
 @media (max-width: 1025px) {
     .layer_desktop {
         display: none;
+        background: #17181A
     }
     .layer_mobile_res {
         display: block;
         height: 1500px;
-        background: #1e1e1e;
+        background: #17181A
     }
     /* layer_mobile_lists */
     .layer_mobile_lists {

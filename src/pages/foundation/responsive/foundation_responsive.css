@@ -248,6 +248,89 @@
         padding-right: 15px;
     }
 }
+@media (max-width: 431px) {
+    .foundation {
+        width: 430px;
+    }
+    .found_avatar {
+        display: flex;
+        justify-content: left;
+        padding: 0px 25px;
+    }
+    .found_avatar p {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 21px;
+        /* identical to box height */
+        padding: 0px 10px;
+        color: #ffffff;
+    }
+    .time {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 21px;
+        /* identical to box height */
+
+        color: #ffffff;
+    }
+    .email_panel_found {
+        background: #222222;
+        height: 60px;
+        border-radius: 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0px 25px;
+    }
+    .img_panel_found {
+        margin: 20px;
+        text-align: center;
+        background-image: url(../assets/beta_mobile.png);
+        background-repeat: no-repeat;
+        /* background-size: cover; */
+        width: 349px;
+        height: 205px;
+    }
+    .foundation_title {
+        padding: 40px 0px;
+    }
+    .foundation_title h3 {
+        margin: 0px;
+        /* width: 376px; */
+        height: 29px;
+        font-family: "Playfair Display";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 22px;
+        line-height: 29px;
+        text-align: center;
+        color: #ffffff;
+    }
+    .avatar {
+        width: 40px;
+        height: 40px;
+    }
+
+    .found_post {
+        padding: 10px 25px;
+    }
+    .found_post p {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 21px;
+
+        color: #ffffff;
+    }
+    .arrow {
+        padding-right: 15px;
+    }
+}
 @media (min-width: 768px) {
     .img_panel_found {
         margin: 20px;

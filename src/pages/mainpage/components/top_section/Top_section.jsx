@@ -10,16 +10,20 @@ function Top_section(props) {
             <video width="100%"  autoPlay muted playsInline loop className='video'>
               <source src={vd} type="video/mp4"  />
             </video>
+            {/* box-shadow */}
+            <div className="shadow_layer">
+                
+            </div>
             {/* first top section */}
          
             <div className="row row_top_section">
                 <div className="col-1"></div>
 
                 <div className="col-lg-6 col-12">
-                    <div id='span_responsive'>
+                    <div id='span_responsive p-3'>
                         <h3 className='big_text_responsive'>We network liberal <span >conservative</span> top</h3>
                     </div>
-                    <div className='text_section_2 '>
+                    <div className='text_section_2 p-3'>
                         <p className='small_text_section_1  '>
                             Performers with each other and with the high performers of tomorrow. An invite-only app for political and professional exchange. Register now for the free beta version!
                         </p>

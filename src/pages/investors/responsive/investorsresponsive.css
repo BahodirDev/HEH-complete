@@ -214,6 +214,68 @@
         padding-right: 15px;
     }
 }
+@media (max-width: 431px) {
+    .investors {
+        width: 430px;
+    }
+    .time {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 21px;
+        /* identical to box height */
+
+        color: #ffffff;
+    }
+    .email_panel_invest{
+        padding: 0px 20px;
+    }
+    .img_panel_invest {
+        margin: 20px;
+        text-align: center;
+        background-image: url(../assets/mobile.png);
+        background-repeat: no-repeat;
+        /* background-size: cover; */
+        width: 349px;
+        height: 205px;
+    }
+    .invest_title {
+        padding: 40px 0px;
+    }
+    .invest_title h3 {
+        margin: 0px;
+        /* width: 376px; */
+        height: 29px;
+        font-family: "Playfair Display";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 22px;
+        line-height: 29px;
+        text-align: center;
+        color: #ffffff;
+    }
+    .avatar {
+        width: 40px;
+        height: 40px;
+    }
+
+    .invest_post {
+        padding: 10px 25px;
+    }
+    .invest_post p {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 21px;
+
+        color: #ffffff;
+    }
+    .arrow {
+        padding-right: 15px;
+    }
+}
 @media (max-width: 769px) {
     .invest_avatar {
         display: flex;

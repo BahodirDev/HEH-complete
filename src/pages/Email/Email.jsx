@@ -4,10 +4,10 @@ import arrow from './assets/arrow.png';
 import './email.css'
 // import './responsive/emailresponsive.css'
 import './responsive/emailresponsive2.css'
-function Email({isEmail,setIsEmail}) {
-    useEffect(()=>{
+function Email({ isEmail, setIsEmail }) {
+    useEffect(() => {
         setIsEmail(false);
-    },[])
+    }, [])
     const navigate = useNavigate()
     return (
         <div className=" email container">
@@ -24,14 +24,15 @@ function Email({isEmail,setIsEmail}) {
             </div>
             {/* Back */}
             {/* desktop vrsion */}
-            <div className="row email_place">
-                <div className="col-lg-5  left_side_email">
+
+            <div className=" email_place"id='email_p' >
+                <div className="col-4 left_side_email">
                     <div className="col-lg-12">
                         <h3 className='email_title'>Apply now for free membership to
                             be one of our first users!</h3>
                     </div>
                 </div>
-                <div className="col-lg-5  right_side_email">
+                <div className="col-6 right_side_email">
                     <div className="row right_side_email_row">
                         <div className="col-lg-6  col-12">
                             <input type="text" className='form-control email_input' placeholder='First Name' />

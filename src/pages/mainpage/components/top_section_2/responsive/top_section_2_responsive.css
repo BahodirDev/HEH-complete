@@ -87,6 +87,15 @@
     }
 }
 @media (max-width: 376px) {
+    .item_cards_list:hover {
+        border: 1px solid #ffd600;
+        box-shadow: 0px 0px 53px rgba(178, 225, 9, 0.5) inset;
+        color: #ffff;
+        opacity: 0.8;
+        min-height: 0%;
+        overflow: hidden;
+        transition: all 0.2s linear;
+    }
     .top_section_2 {
         min-height: 1700px;
         width: 530px;
@@ -131,10 +140,19 @@
     }
 }
 @media (max-width: 426px) {
+    .item_cards_list:hover {
+        border: 1px solid #ffd600;
+        box-shadow: 0px 0px 53px rgba(178, 225, 9, 0.5) inset;
+        color: #ffff;
+        opacity: 0.8;
+        min-height: 0%;
+        overflow: hidden;
+        transition: all 0.2s linear;
+    }
     .top_section_2 {
         min-height: 1700px;
         width: 100%;
-        background: #1e1e1e;
+        background: #17181a;
     }
     .cards_section_2 {
         width: 100%;
@@ -174,11 +192,21 @@
         color: #ffffff;
     }
 }
+
 @media (max-width: 768px) {
+    .item_cards_list:hover {
+        border: 1px solid #ffd600;
+        box-shadow: 0px 0px 53px rgba(178, 225, 9, 0.5) inset;
+        color: #ffff;
+        opacity: 0.8;
+        min-height: 0%;
+        overflow: hidden;
+        transition: all 0.2s linear;
+    }
     .top_section_2 {
         min-height: 1700px;
         width: 100%;
-        background: #1e1e1e;
+        background: #17181a;
     }
     .cards_section_2 {
         width: 100%;
@@ -222,7 +250,7 @@
     .top_section_2 {
         min-height: 1700px;
         width: 100%;
-        background: #1e1e1e;
+        background: #17181a;
     }
     .cards_section_2 {
         width: 100%;
@@ -262,4 +290,3 @@
         color: #ffffff;
     }
 }
-

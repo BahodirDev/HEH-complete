@@ -4,8 +4,9 @@
 }
 
 .email {
-   min-height: 1500px;
+    min-height: 1250px;
 }
+
 .email_place {
     min-height: 600px;
     background: url(./assets/place.png);

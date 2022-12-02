@@ -34,13 +34,16 @@
         justify-content: left;
     }
     .nav_btn {
-        width: 170px;
+        min-width: 200px;
         border: 1px solid #ffd600;
         border-radius: 150px;
         text-align: center;
+        /* display: none; */
     }
     .nav_btn span {
         color: #ffd600;
+        width: 100%;
+        /* display: none; */
         padding: 10px 10px;
     }
 }

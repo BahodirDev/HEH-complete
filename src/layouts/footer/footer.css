@@ -10,7 +10,7 @@
     background: #1c1d1f;
 }
 .p1_footer {
-    font-family: "Gilroy";
+    font-family: "Gilroy", sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
@@ -22,7 +22,7 @@
     color: #ffffff;
 }
 .p2_footer {
-    font-family: "Gilroy";
+    font-family: "Gilroy", sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 12px;
@@ -36,7 +36,7 @@
 
 /* end_list_1 */
 .end_list_1 {
-    font-family: "Gilroy";
+    font-family: "Gilroy", sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 16px;
@@ -56,7 +56,7 @@
 }
 /* footer_social */
 .footer_social_text {
-    font-family: "Gilroy";
+    font-family: "Gilroy", sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;

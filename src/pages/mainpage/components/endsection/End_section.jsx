@@ -54,7 +54,7 @@ function End_section(props) {
                         <h5 className='big_text_mobile'>What <span>we</span> offer</h5>
                     </div>
                     <div className="col-12 mobile_lists">
-                        <h5 className='big_text_mobile_2'>Offers </h5>
+                        <h5 className='big_text_mobile_2'>Offers</h5>
                         <span className='mobile_text'>
                             Performers with each other and with the high performers of tomorrow
                         </span>

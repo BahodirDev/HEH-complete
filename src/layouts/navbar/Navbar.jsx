@@ -4,7 +4,7 @@ import './responsive/navbar_responsive.css'
 import png from '../../assets/logo.png'
 import { Link } from 'react-router-dom'
 
-function Navbar({ isEmail }) {
+function Navbar({ isEmail, setIsOpen }) {
     return (
 
 
@@ -16,7 +16,7 @@ function Navbar({ isEmail }) {
                     </Link>
 
             </div>
-            <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <button onClick={()=>setIsOpen(true)} id='burger' className="navbar-toggler" type="button" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon"></span>
             </button>
 
@@ -35,10 +35,8 @@ function Navbar({ isEmail }) {
                     </li>
                     {
                         isEmail &&
-                        <li className="nav-item">
-                            <Link to={'/email'} className="nav-link nav-link nav_btn" href="#"><span> Received invention</span> </Link>
-
-                            {/* <a className="nav-link nav_btn " href="#"></a> */}
+                        <li className="nav-item" >
+                            <Link to={'/email'} className="nav-link nav-link nav_btn" href="#"><span> Received invitation</span> </Link>
                         </li>
                     }
 

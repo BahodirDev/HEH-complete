@@ -6,7 +6,110 @@
     .mobile_row_email {
         background: url(../assets/mob_email.png);
         display: block;
-        width: 410px;
+        width: 375px;
+        margin: 0 auto;
+        min-height: 812px;
+        padding: 10px;
+    }
+
+    .email_title_hidden_mob {
+        display: block;
+        font-family: "Playfair Display";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 32px;
+        text-align: center;
+
+        color: #ffffff;
+    }
+
+    /* email_input_mob */
+    .email_input_mob {
+        background: #1e1e1e;
+        border-radius: 10px;
+        width: 99%;
+        height: 50px;
+
+        /* text */
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        /* identical to box height */
+
+        color: #dadada;
+        margin: 20px 0px;
+        opacity: 0.5;
+    }
+    .email_text_mob {
+        background: #1e1e1e;
+        border-radius: 10px;
+        width: 99%;
+        height: 297px;
+    }
+    .input_check_mobile {
+        display: flex;
+        width: 100%;
+        margin: 20px 0px;
+    }
+    .input_check_mob_ {
+        border: 1px solid #ffd600;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* color: red; */
+        border-radius: 5px;
+        width: 16px;
+        height: 16px;
+        /* background: red; */
+    }
+    .input_check_mob {
+        width: max-content;
+        height: max-content;
+        background: #000;
+        border-radius: 50%;
+        border: 1px solid #ffd600;
+    }
+
+    /* apply_btn */
+    .apply {
+        text-align: center;
+    }
+    .apply_btn {
+        width: 220px;
+        height: 40px;
+        background: #ffd600;
+        border-radius: 150px;
+        /* text */
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 38px;
+        /* identical to box height, or 238% */
+
+        color: #1f2022;
+    }
+    .back_email {
+        margin: 10px 0px;
+    }
+    .text_row {
+        display: none;
+    }
+    .email_place {
+        display: none;
+    }
+}
+@media  screen and (min-width: 375px) {
+    .email {
+        min-height: 812px;
+    }
+    .mobile_row_email {
+        background: url(../assets/mob_email.png);
+        display: block;
+        width: 375px;
         margin: 0 auto;
         min-height: 812px;
         padding: 20px;
@@ -102,7 +205,16 @@
         display: none;
     }
 }
-@media (max-width: 415px) {
+
+
+/* iphones 14pro max */
+@media (min-width: 425px) {
+    .email_place{
+        display: none;
+    }
+    .mobile_row_email{
+        display: block;
+    }
     .email {
         min-height: 812px;
     }
@@ -205,15 +317,32 @@
         display: none;
     }
 }
-@media screen and (min-width: 1024px) {
+/* tablet */
+@media screen and (min-width: 768px) {
+    
+    .email{
+        min-height: 1250px;
+    }
+    .email_place {
+        display: flex;
+        width: 767px;
+        background: url(../assets/place.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        border-radius: 10px;
+        width: 100%;
+        height: 700px;
+        margin: 0 auto;
+    }
+    
     .right_side_email_row {
         background: url(../assets/blur.png);
         background-repeat: no-repeat;
         background-size: cover;
-        width: 575px;
-        height: 526px;
-        padding: 10px;
-        margin-top: -3px;
+        width: 700px;
+        height: 100%;
+        padding: 20px 10px;
+        margin: 0 auto;
     }
     /* except */
     .mobile_row_email {
@@ -223,16 +352,7 @@
     .email {
         min-height: 1500px;
     }
-    .email_place {
-        min-height: 600px;
-        background: url(../assets/place.png);
-        background-repeat: no-repeat;
-        background-size: contain;
-        border-radius: 10px;
-        width: 100%;
-        height: 726px;
-        margin: 0 auto;
-    }
+   
     /* /arrow_row */
     .arrow_row {
         padding-top: 180px;
@@ -252,10 +372,14 @@
 
     /* left_side_email */
     .left_side_email {
-        display: flex;
+        display: none;
         align-items: center;
         justify-content: left;
-        padding: 0px 56px;
+        padding: 0px 6px;
+        height: 546px;
+        margin-right: 20px;
+        background: none;
+        /* display: none; */
     }
     /* right_side_email */
 
@@ -264,27 +388,24 @@
     .email_input_option {
         background: #1e1e1e;
         border-radius: 10px;
-        width: 264px;
-        padding: 20px 0px;
+        width: 100%;
+        padding: 8px 0px;
         border: none;
-        text-indent: 20px;
-        /* max-height: 50px; */
+        text-indent: 10px;
         font-family: "Poppins";
         font-style: normal;
         font-weight: 400;
         font-size: 12px;
         line-height: 24px;
-        /* identical to box height */
-        margin: 5px;
+        margin: 5px 0px;
         color: #dadada;
-        /* border: 1px solid red; */
-        opacity: 0.5;
+        opacity: 0.7;
     }
     .email_text {
         background: #1e1e1e;
         border-radius: 10px;
-        width: 550px;
-        height: 126px;
+        width: 100%;
+        height: 100px;
         border: none;
         font-family: "Poppins";
         font-style: normal;
@@ -300,27 +421,30 @@
     .input_check {
         display: flex;
         width: 100%;
+        padding-top: 5px;
     }
     .email_input_check_ {
         border: 1px solid #ffd600;
         display: flex;
         justify-content: center;
         align-items: center;
-        /* color: red; */
         border-radius: 5px;
-        width: 12px;
+        max-width: 16px;
         height: 16px;
-        /* background: red; */
         margin-top: 5px;
-
+        padding: 5px;
     }
     .email_input_check {
         width: max-content;
         height: max-content;
-        background: #000;
+        /* display: none; */
+        background: none;
         border-radius: 50%;
         border: 1px solid #ffd600;
-
+        /* color: ; */
+    }
+    .email_input_check::placeholder {
+        background: #101010 5%;
     }
 
     .email_input_pg {
@@ -331,223 +455,8 @@
         line-height: 13px;
 
         color: #7c7c7c;
-        margin-left: 10px;
-        margin-top: 5px;
-    }
-    .mark {
-        color: #ffd600;
-        background: transparent;
-    }
-
-    /* apply_email */
-    .apply_email {
-        background: #ffd600;
-        border-radius: 150px;
-        width: 220px;
-        height: 50px;
-
-        /* text */
-
-        font-family: "Poppins";
-        font-style: normal;
-        font-weight: 600;
-        font-size: 18px;
-        line-height: 38px;
-        /* identical to box height, or 211% */
-
-        color: #1f2022;
-    }
-    .apply_email:hover {
-        background: #b89f24;
-        border-radius: 150px;
-        width: 250px;
-        height: 50px;
-
-        /* text */
-
-        font-family: "Poppins";
-        font-style: normal;
-        font-weight: 600;
-        font-size: 18px;
-        line-height: 38px;
-        /* identical to box height, or 211% */
-
-        color: #000000;
-    }
-
-    /* email_text_p */
-    .email_text_p {
-        font-family: "Poppins";
-        font-style: normal;
-        font-weight: 400;
-        font-size: 12px;
-        line-height: 36px;
-
-        color: #ffffff;
-    }
-
-    /* /text_section_email */
-    .text_row {
-        display: flex;
-        justify-content: center;
-    }
-    .text_section_email {
-        width: 1241px;
-        height: 187px;
-        padding: 40px;
-        text-align: center;
-    }
-    .back_email {
-        height: 60px;
-        display: flex;
-        align-items: center;
-        color: #fff;
-        cursor: pointer;
-        margin: 30px 0px;
-    }
-
-    .back_email p {
-        margin: 0px;
-        font-family: "Poppins";
-        font-style: normal;
-        font-weight: 500;
-        font-size: 18px;
-        line-height: 27px;
-        /* identical to box height */
-
-        color: #ffffff;
-    }
-    .arrow_email {
-        padding: 0px 15px;
-    }
-    .email_title_hidden {
-        display: none;
-    }
-}
-@media screen and (min-width: 1440px) {
-    /* except */
-    .mobile_row_email {
-        display: none;
-    }
-
-    .email {
-        min-height: 1500px;
-    }
-    .email_place {
-        min-height: 600px;
-        background: url(../assets/place.png);
-        background-repeat: no-repeat;
-        background-size: contain;
-        border-radius: 10px;
-        width: 100%;
-        height: 726px;
-        margin: 0 auto;
-    }
-    /* /arrow_row */
-    .arrow_row {
-        padding-top: 180px;
-    }
-
-    /* email_title */
-    .email_title {
-        font-family: "Playfair Display";
-        font-style: normal;
-        font-weight: 500;
-        font-size: 36px;
-        line-height: 48px;
-        text-align: left;
-        color: #ffffff;
-        margin: 0 auto;
-    }
-
-    /* left_side_email */
-    .left_side_email {
-        display: flex;
-        align-items: center;
-        justify-content: left;
-        padding: 0px 56px;
-    }
-    /* right_side_email */
-    .right_side_email_row {
-        background: url(../assets/blur.png);
-        background-repeat: no-repeat;
-        background-size: cover;
-        width: 715px;
-        height: 726px;
-        padding: 30px;
-        margin-top: -3px;
-    }
-
-    /* email_input */
-    .email_input,
-    .email_input_option {
-        background: #1e1e1e;
-        border-radius: 10px;
-        width: 294px;
-        padding: 20px 0px;
-        border: none;
-        text-indent: 20px;
-        /* max-height: 50px; */
-        font-family: "Poppins";
-        font-style: normal;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 24px;
-        /* identical to box height */
-
-        color: #dadada;
-        /* border: 1px solid red; */
-        opacity: 0.5;
-    }
-    .email_text {
-        background: #1e1e1e;
-        border-radius: 10px;
-        width: 610px;
-        height: 156px;
-        border: none;
-        font-family: "Poppins";
-        font-style: normal;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 24px;
-        /* identical to box height */
-
-        color: #dadada;
-    }
-
-    /* input_check */
-    .input_check {
-        display: flex;
-        width: 100%;
-    }
-    .email_input_check_ {
-        border: 1px solid #ffd600;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        /* color: red; */
-        border-radius: 5px;
-        width: 16px;
-        height: 16px;
-        /* background: red; */
-    }
-    .email_input_check {
-        width: max-content;
-        height: max-content;
-        background: #000;
-        border-radius: 50%;
-        border: 1px solid #ffd600;
-    }
-
-    .email_input_pg {
-        font-family: "Poppins";
-        font-style: normal;
-        font-weight: 400;
-        font-size: 12px;
-        line-height: 18px;
-
-        color: #7c7c7c;
-        margin-left: 10px;
+        margin-left: 15px;
+        margin-bottom: 1px;
     }
     .mark {
         color: #ffd600;
@@ -561,16 +470,13 @@
         width: 250px;
         height: 50px;
 
-        /* text */
-
         font-family: "Poppins";
         font-style: normal;
         font-weight: 600;
         font-size: 18px;
         line-height: 38px;
-        /* identical to box height, or 211% */
-
         color: #1f2022;
+        margin: 10px 0px;
     }
     .apply_email:hover {
         background: #b89f24;
@@ -638,4 +544,471 @@
     .email_title_hidden {
         display: none;
     }
+
+    /*  */
+
+}
+
+/* for laptop */
+@media screen and (min-width: 1023px) {
+    
+    .email{
+        min-height: 1250px;
+    }
+    .email_place {
+        display: flex;
+        justify-content:space-evenly;
+        width: 767px;
+        min-height: 600px;
+        background: url(../assets/place.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        border-radius: 10px;
+        width: 100%;
+        height: 500px;
+        margin: 0 auto;
+    }
+    
+    .right_side_email_row {
+        background: url(../assets/blur.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 555px;
+        height: 546px;
+        padding: 20px 10px;
+        margin-top: -2px;
+    }
+    /* except */
+    .mobile_row_email {
+        display: none;
+    }
+
+    .email {
+        min-height: 1500px;
+    }
+   
+    /* /arrow_row */
+    .arrow_row {
+        padding-top: 180px;
+    }
+
+    /* email_title */
+    .email_title {
+        font-family: "Playfair Display";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 36px;
+        line-height: 48px;
+        text-align: left;
+        color: #ffffff;
+        margin: 0 auto;
+    }
+
+    /* left_side_email */
+    .left_side_email {
+        display: flex;
+        align-items: center;
+        justify-content: left;
+        padding: 0px 6px;
+        height: 546px;
+        margin-right: 20px;
+        /* display: none; */
+    }
+    /* right_side_email */
+
+    /* email_input */
+    .email_input,
+    .email_input_option {
+        background: #1e1e1e;
+        border-radius: 10px;
+        width: 234px;
+        padding: 8px 0px;
+        border: none;
+        text-indent: 10px;
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 24px;
+        margin: 5px 0px;
+        color: #dadada;
+        opacity: 0.7;
+    }
+    .email_text {
+        background: #1e1e1e;
+        border-radius: 10px;
+        width: 505px;
+        height: 100px;
+        border: none;
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 24px;
+        /* identical to box height */
+
+        color: #dadada;
+    }
+
+    /* input_check */
+    .input_check {
+        display: flex;
+        width: 100%;
+        padding-top: 5px;
+    }
+    .email_input_check_ {
+        border: 1px solid #ffd600;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 5px;
+        max-width: 16px;
+        height: 16px;
+        margin-top: 5px;
+        padding: 5px;
+    }
+    .email_input_check {
+        width: max-content;
+        height: max-content;
+        /* display: none; */
+        background: none;
+        border-radius: 50%;
+        border: 1px solid #ffd600;
+        display: none;
+        /* color: ; */
+    }
+    .email_input_check::placeholder {
+        background: #101010 5%;
+    }
+
+    .email_input_pg {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 13px;
+
+        color: #7c7c7c;
+        margin-left: 15px;
+        margin-bottom: 1px;
+    }
+    .mark {
+        color: #ffd600;
+        background: transparent;
+    }
+
+    /* apply_email */
+    .apply_email {
+        background: #ffd600;
+        border-radius: 150px;
+        width: 250px;
+        height: 50px;
+
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 38px;
+        color: #1f2022;
+        margin: 10px 0px;
+    }
+    .apply_email:hover {
+        background: #b89f24;
+        border-radius: 150px;
+        width: 250px;
+        height: 50px;
+
+        /* text */
+
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 38px;
+        /* identical to box height, or 211% */
+
+        color: #000000;
+    }
+
+    /* email_text_p */
+    .email_text_p {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 36px;
+
+        color: #ffffff;
+    }
+
+    /* /text_section_email */
+    .text_row {
+        display: flex;
+        justify-content: center;
+    }
+    .text_section_email {
+        width: 1241px;
+        height: 187px;
+        padding: 40px;
+        text-align: center;
+    }
+    .back_email {
+        height: 60px;
+        display: flex;
+        align-items: center;
+        color: #fff;
+        cursor: pointer;
+        margin: 30px 0px;
+    }
+
+    .back_email p {
+        margin: 0px;
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 27px;
+        /* identical to box height */
+
+        color: #ffffff;
+    }
+    .arrow_email {
+        padding: 0px 15px;
+    }
+    .email_title_hidden {
+        display: none;
+    }
+
+    /*  */
+
+}
+
+/* for bigger than laptop */
+@media screen and (min-width: 1339px) {
+    
+    .email{
+        min-height: 1250px;
+    }
+    .email_place {
+    
+       
+        min-height: 600px;
+        background: url(../assets/place.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        border-radius: 10px;
+        width: 100%;
+        height: 726px;
+        margin: 0 auto;
+    }
+    
+    .right_side_email_row {
+        background: url(../assets/blur.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 675px;
+        height: 100%;
+        padding: 25px 0px;
+    }
+    /* except */
+    .mobile_row_email {
+        display: none;
+    }
+
+   
+    /* /arrow_row */
+    .arrow_row {
+        padding-top: 180px;
+    }
+
+    /* email_title */
+    .email_title {
+        font-family: "Playfair Display";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 36px;
+        line-height: 48px;
+        text-align: left;
+        color: #ffffff;
+        margin: 0 auto;
+    }
+
+    /* left_side_email */
+    .left_side_email {
+        display: flex;
+        align-items: center;
+        justify-content: left;
+        padding: 0px 6px;
+        height: 546px;
+        margin-right: 20px;
+        /* display: none; */
+    }
+    /* right_side_email */
+
+    /* email_input */
+    .email_input,
+    .email_input_option {
+        background: #1e1e1e;
+        border-radius: 10px;
+        width: 290px;
+        height: 50px;
+        padding: 8px 0px;
+        border: none;
+        text-indent: 10px;
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 24px;
+        margin: 5px 10px;
+        color: #dadada;
+        opacity: 0.7;
+    }
+    .email_text {
+        background: #1e1e1e;
+        border-radius: 10px;
+        width: 620px;
+        height: 156px;
+        border: none;
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 24px;
+        /* identical to box height */
+       margin-left: 12px;
+        color: #dadada;
+    }
+
+    /* input_check */
+    .input_check {
+        display: flex;
+        width: 100%;
+        padding-top: 5px;
+    }
+    .email_input_check_ {
+        display: block;
+        border: 1px solid #ffd600;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 5px;
+        max-width: 16px;
+        height: 16px;
+        margin-top: 5px;
+        padding: 5px;
+    }
+    .email_input_check {
+        width: max-content;
+        height: max-content;
+        /* display: none; */
+        background: none;
+        border-radius: 50%;
+        border: 1px solid #ffd600;
+        /* color: ; */
+    }
+    .email_input_check::placeholder {
+        background: #101010 5%;
+    }
+
+    .email_input_pg {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 13px;
+
+        color: #7c7c7c;
+        margin-left: 15px;
+        margin-bottom: 1px;
+    }
+    .mark {
+        color: #ffd600;
+        background: transparent;
+    }
+
+    /* apply_email */
+    .apply_email {
+        background: #ffd600;
+        border-radius: 150px;
+        width: 250px;
+        height: 50px;
+
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 38px;
+        color: #1f2022;
+        margin: 10px 0px;
+    }
+    .apply_email:hover {
+        background: #b89f24;
+        border-radius: 150px;
+        width: 250px;
+        height: 50px;
+
+        /* text */
+
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 38px;
+        /* identical to box height, or 211% */
+
+        color: #000000;
+    }
+
+    /* email_text_p */
+    .email_text_p {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 36px;
+
+        color: #ffffff;
+    }
+
+    /* /text_section_email */
+    .text_row {
+        display: flex;
+        justify-content: center;
+    }
+    .text_section_email {
+        width: 1241px;
+        height: 187px;
+        padding: 40px;
+        text-align: center;
+    }
+    .back_email {
+        height: 60px;
+        display: flex;
+        align-items: center;
+        color: #fff;
+        cursor: pointer;
+        margin: 30px 0px;
+    }
+
+    .back_email p {
+        margin: 0px;
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 27px;
+        /* identical to box height */
+
+        color: #ffffff;
+    }
+    .arrow_email {
+        padding: 0px 15px;
+    }
+    .email_title_hidden {
+        display: none;
+    }
+
+    /*  */
+
 }

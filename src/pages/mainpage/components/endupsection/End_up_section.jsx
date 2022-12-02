@@ -17,7 +17,7 @@ function End_up_section(props) {
             <div className="row end_cards">
                 <div className="col-lg-4 col-12  end_section_list">
                     <img src={png1} alt="logo" />
-                    <h5 className='golden_print'>Performanc</h5>
+                    <h5 className='golden_print'>Performance</h5>
                     <p className='golden_print_text'>Performers with each other and with the high performers of tomorrow. An invite-only app for political and professional exchange. Register now for the free beta version!</p>
                 </div>
                 <div className="col-lg-4 col-12  end_section_list">
